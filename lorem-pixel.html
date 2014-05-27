@@ -1,0 +1,32 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+Generate a placeholder image from the lorempixel service
+
+##### Example
+
+    <lorem-pixel width="300" height="120" type="sports" num="5"></lorem-pixel>
+
+@element lorem-pixel
+@blurb Generate a placeholder image from the lorempixel service
+@status alpha
+@homepage http://robdodson.github.io/lorem-pixel
+-->
+<polymer-element name="lorem-pixel" attributes="width height type num">
+
+  <template>
+    <img src="http://lorempixel.com/{{width}}/{{height}}/{{type}}/{{num}}">
+  </template>
+
+  <script>
+
+    Polymer('lorem-pixel', {
+      width: 400,
+      height: 200,
+      type: 'nature',
+      num: 1
+    });
+
+  </script>
+
+</polymer-element>
