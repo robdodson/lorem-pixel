@@ -1,6 +1,6 @@
 {
   "name": "lorem-pixel",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "keywords": "seed, polymer, web-components",
   "main": "lorem-pixel.html",
   "dependencies": {
