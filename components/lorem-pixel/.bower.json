@@ -1,0 +1,19 @@
+{
+  "name": "lorem-pixel",
+  "keywords": "seed, polymer, web-components",
+  "main": "lorem-pixel.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.2.4"
+  },
+  "homepage": "https://github.com/robdodson/lorem-pixel",
+  "_release": "67f472b87f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "67f472b87fb1b6246a729faf1baae03507f18fc0"
+  },
+  "_source": "git://github.com/robdodson/lorem-pixel.git",
+  "_target": "master",
+  "_originalSource": "robdodson/lorem-pixel",
+  "_direct": true
+}
